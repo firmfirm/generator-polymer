@@ -60,7 +60,7 @@ fi
 
 # send it all to github
 git add -A .
-git commit -am 'seed gh-pages'
+git commit -am '--skip-ci gh-pages'
 git push -u origin gh-pages --force
 git checkout $branch
 
